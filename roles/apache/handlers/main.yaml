@@ -1,0 +1,5 @@
+---  
+- name: start and enable httpd
+  systemd:
+    name: httpd.service
+    state: reloaded
