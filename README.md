@@ -10,6 +10,7 @@ Ensure that the following prerequisites are met before running the Ansible playb
 3-Inventory file containing the target server details.
 
 # Project Structure
+
 ansible-httpd-project/
 |-- inventory/
 |   |-- hosts
@@ -51,4 +52,5 @@ ansible-playbook site.yml -i inventory/hosts
   *Installing httpd using the yum package manager.
   *Copying the Jinja2 template for httpd.conf to the target servers.
   *Configuring httpd with the template and restarting the service.
+  
 3-The playbook concludes with a summary of the executed tasks and any changes made.
